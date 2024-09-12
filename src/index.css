@@ -1,0 +1,47 @@
+.custom-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+}
+
+.table-header {
+  background-color: #007bff;
+  text-align: left;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.table-header:hover {
+  background-color: #0056b3;
+}
+
+.table-row {
+  transition: background-color 0.3s ease;
+}
+
+.table-row:hover {
+  background-color: #f1f1f1;
+}
+
+.table td,
+.table th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+.bg-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.bg-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
